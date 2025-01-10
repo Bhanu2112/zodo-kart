@@ -1,0 +1,8 @@
+package com.zodo.kart.entity.order;
+
+/**
+ * Author : Bhanu prasad
+ */
+
+public class DeliveryAssignment {
+}

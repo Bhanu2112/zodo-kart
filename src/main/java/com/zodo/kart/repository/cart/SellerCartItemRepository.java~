@@ -1,0 +1,8 @@
+package com.zodo.kart.repository.cart;
+
+/**
+ * Author : Bhanu prasad
+ */
+
+public interface SellerCartItemRepository {
+}

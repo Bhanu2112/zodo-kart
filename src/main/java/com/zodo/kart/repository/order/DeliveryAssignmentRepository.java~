@@ -1,0 +1,13 @@
+package com.zodo.kart.repository.order;
+
+import com.zodo.kart.entity.order.DeliveryAssignment;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+/**
+ * Author : Bhanu prasad
+ */
+
+@Repository
+public interface DeliveryAssignmentRepository extends JpaRepository<DeliveryAssignment, Long> {
+}

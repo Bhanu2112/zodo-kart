@@ -1,0 +1,8 @@
+package com.zodo.kart.dto.wishlist;
+
+/**
+* Author : Bhanu prasad
+*/
+
+public class WishListDto {
+}

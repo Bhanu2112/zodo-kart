@@ -1,0 +1,96 @@
+##spring.application.name=zodokart
+#logging:
+#  level:
+#    org:
+#      hibernate:
+#        SQL: DEBUG
+#        type:
+#          descriptor:
+#            sql:
+#              BasicBinder: TRACE
+#      springframework:
+#        jdbc:
+#          datasource: DEBUG
+#
+#
+#    org.springframework.security: trace
+#server:
+#  port: 8080
+#spring:
+#  application:
+#    name: zodokart
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+##    password: Bhanubodasingi
+##    url: jdbc:mysql://localhost:3306/zodouserservice?createDatabaseIfNotExists=true
+##    username: root
+#
+##    password: ZodoKart
+##    url: jdbc:mysql://zodo.cfgammgoml2f.ap-south-1.rds.amazonaws.com:3306/zodoKart?createDatabaseIfNotExists=true
+##    username: Zodokart
+#
+#    url: jdbc:mysql://zodo.c7i4kq26yxwz.us-east-1.rds.amazonaws.com:3306/zodoKart
+#    username: Zodokart
+#    password: Zodokart
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL8Dialect
+#    show-sql: true
+#
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          google:
+#            client-id: 576881379069-o0a0edlrr58o2vlacdkhdsargvrj0s59.apps.googleusercontent.com
+#            client-secret: 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
+#            scope: openid,email,profile,https://www.googleapis.com/auth/user.phonenumbers.read
+#
+##  spring.security.oauth2.client.provider.google.authorization-uri=https://accounts.google.com/o/oauth2/auth
+##  spring.security.oauth2.client.provider.google.token-uri=https://oauth2.googleapis.com/token
+##  spring.security.oauth2.client.provider.google.user-info-uri=https://www.googleapis.com/oauth2/v3/userinfo
+#
+#
+#jwt:
+#  rsa-private-key: classpath:certs/privateKey.pem
+#  rsa-public-key: classpath:certs/publicKey.pem
+#
+#  spring:
+#    security:
+#      oauth2:
+#        resourceserver:
+#          jwt:
+#            issuer-uri: http://localhost:8080/oauth2/default
+#
+#springdoc:
+#  api-docs:
+#    path: /api-docs
+#
+#aws:
+#  bucket:
+#    name: zodoimages
+#  secretKey: 1lb4+0uePhNFogExctSWadHAeox7Iv1txnuvML3M
+#  accessKey: AKIAXEVXYK7N4KJK57M5
+#  region: ap-south-1
+#
+#
+#phonepe:
+#  pg:
+#    merchantId: PGTESTPAYUAT86
+#    saltKey: 96434309-7796-489d-8924-ab56988a6076
+#    saltIndex: 1
+#    publishEvents: true
+##    callbackUrl: https://a8e3-103-125-161-73.ngrok-free.app/public/payment/callback
+##    redirectUrl: http://localhost:8080/public/payment/confirmation
+#    callbackUrl: http://44.217.217.67:8080/public/payment/callback
+#    redirectUrl: http://44.217.217.67:8080/public/payment/confirmation
+#    operatorCallbackUrl: http://44.217.217.67:8080/public/payment/callback
+#    operatorRedirectUrl: http://44.217.217.67:8080/public/payment/confirmation
+#
+#
+#
+#

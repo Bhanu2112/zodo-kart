@@ -1,0 +1,8 @@
+package com.zodo.kart.dto.cart;
+
+/**
+* Author : Bhanu prasad
+*/
+
+public class SCartDto {
+}
